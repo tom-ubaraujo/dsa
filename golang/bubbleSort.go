@@ -9,7 +9,7 @@ func bSort(nums []int) []int {
 	for swap {
 
 		swap = false
-		for i := 1; i <= len(nums)-1; i++ {
+		for i := 1; i < len(nums); i++ {
 
 			if nums[i-1] > nums[i] {
 				temp = nums[i-1]
